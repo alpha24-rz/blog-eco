@@ -7,6 +7,15 @@ import { BrainCircuit, Clock, Github, Linkedin, Mail, Rss, Twitter } from "lucid
 import { useRouter } from "next/navigation"
 import { EcoThemeToggle } from "@/components/eco-theme-toggle"
 
+interface ArticleCardProps {
+  title: string;
+  description: string;
+  category: string;
+  date: string;
+  slug: string;
+  image: string;
+}
+
 // Static article data for GitHub Pages
 const articles = [
   {
@@ -138,9 +147,9 @@ export default function ArticlesPage() {
           <h1 className="text-4xl font-bold mb-8">All Articles</h1>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {articles.map((article, index) => (
+            {articles.map((article) => (
               <ArticleCard
-                key={index}
+                key={article.slug}
                 title={article.title}
                 description={article.description}
                 category={article.category}
@@ -243,7 +252,7 @@ export default function ArticlesPage() {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
-                  <span>ameyaudeshmukh@gmail.com</span>
+                  <span>ecosystem4.0.nft@gmail.com</span>
                 </li>
               </ul>
             </div>
@@ -257,7 +266,7 @@ export default function ArticlesPage() {
   )
 }
 
-function ArticleCard({ title, description, category, date, slug = "", image }) {
+function ArticleCard({ title, description, category, date, slug, image }: ArticleCardProps) {
   return (
     <Link href={`/blog/${slug}/`} className="group">
       <div className="space-y-3">
