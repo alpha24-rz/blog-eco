@@ -1,0 +1,35 @@
+2:I[424,["648","static/chunks/648-a4be9f8d348f2363.js","137","static/chunks/137-7c01c277e0f0cc48.js","157","static/chunks/157-7df473dc93e917f8.js","139","static/chunks/139-f6fcbcbeda8a9c0f.js","308","static/chunks/app/blog/%5Bslug%5D/page-1478207f5318d195.js"],"default"]
+4:I[4707,[],""]
+6:I[6423,[],""]
+7:I[6353,["648","static/chunks/648-a4be9f8d348f2363.js","137","static/chunks/137-7c01c277e0f0cc48.js","157","static/chunks/157-7df473dc93e917f8.js","77","static/chunks/77-fdf48b0c2ab189ab.js","185","static/chunks/app/layout-7ed6674554faecb8.js"],"NewsletterProvider"]
+8:I[2798,["648","static/chunks/648-a4be9f8d348f2363.js","137","static/chunks/137-7c01c277e0f0cc48.js","157","static/chunks/157-7df473dc93e917f8.js","77","static/chunks/77-fdf48b0c2ab189ab.js","185","static/chunks/app/layout-7ed6674554faecb8.js"],"ThemeProvider"]
+9:I[4196,["648","static/chunks/648-a4be9f8d348f2363.js","137","static/chunks/137-7c01c277e0f0cc48.js","157","static/chunks/157-7df473dc93e917f8.js","77","static/chunks/77-fdf48b0c2ab189ab.js","185","static/chunks/app/layout-7ed6674554faecb8.js"],"default"]
+a:I[5447,["648","static/chunks/648-a4be9f8d348f2363.js","137","static/chunks/137-7c01c277e0f0cc48.js","160","static/chunks/app/not-found-438502225978dd24.js"],"default"]
+b:I[9556,["648","static/chunks/648-a4be9f8d348f2363.js","137","static/chunks/137-7c01c277e0f0cc48.js","157","static/chunks/157-7df473dc93e917f8.js","77","static/chunks/77-fdf48b0c2ab189ab.js","185","static/chunks/app/layout-7ed6674554faecb8.js"],"Toaster"]
+3:T635,
+    <h2>Decentralizing Climate Finance</h2>
+    <p>Traditional carbon markets often suffer from lack of transparency, centralized control, and verification bottlenecks. Enter blockchain — a decentralized ledger technology capable of transforming how carbon credits are issued, tracked, and exchanged on a global scale.</p>
+
+    <h3>How Blockchain Reinvents Carbon Markets</h3>
+    <ul>
+      <li><strong>Immutable Records:</strong> Ensuring every carbon offset transaction is verifiable and tamper-proof.</li>
+      <li><strong>Tokenized Carbon Credits:</strong> Digitally representing carbon offsets as tradeable assets (NFTs or tokens).</li>
+      <li><strong>Decentralized Verification:</strong> Community validators or IoT-based sensors verifying emission reductions in real time.</li>
+    </ul>
+
+    <h3>Notable Initiatives</h3>
+    <p><strong>CarbonDAO:</strong> A decentralized autonomous organization (DAO) funding verified reforestation and renewable projects through tokenized credits.</p>
+    <p><strong>VeriCarbon:</strong> Using IoT-linked smart contracts to automate verification of industrial carbon capture systems.</p>
+
+    <h3>Challenges and Next Steps</h3>
+    <ul>
+      <li>Regulatory harmonization across jurisdictions</li>
+      <li>Ensuring ecological integrity beyond financial speculation</li>
+      <li>Developing inclusive access for developing regions</li>
+    </ul>
+
+    <p>Decentralized carbon markets offer a transparent, efficient, and democratized model for tackling climate change financing — making environmental accountability truly global.</p>
+  5:["slug","decentralized-carbon-markets","d"]
+0:["LEqAQkRHzYFUmDakVeVuO",[[["",{"children":["blog",{"children":[["slug","decentralized-carbon-markets","d"],{"children":["__PAGE__?{\"slug\":\"decentralized-carbon-markets\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["slug","decentralized-carbon-markets","d"],{"children":["__PAGE__",{},[["$L1",["$","$L2",null,{"post":{"title":"Decentralized Carbon Markets: Blockchain for Climate Accountability","date":"October 5, 2024","author":"Muhammad Alfarizi","category":"Green Blockchain","readTime":"7 min read","image":"/img/THE SCIENCE BEHIND CARBON CREDITS_ MITIGATING CLIMATE CHANGE (1).jpeg","content":"$3","relatedPosts":[{"title":"The Future of Ecosystem 4.0: Integrating Technology for Planetary Health","category":"Future Ecosystem","image":"https://images.unsplash.com/photo-1518837695005-2083093ee35b?q=80&w=600&h=400&auto=format&fit=crop","slug":"future-ecosystem-4-0"},{"title":"Ocean Health Monitoring: IoT Buoys and AI Analytics for Marine Ecosystems","category":"Marine IoT","image":"https://images.unsplash.com/photo-1559827260-dc66d52bef19?q=80&w=600&h=400&auto=format&fit=crop","slug":"ocean-health-monitoring"}]}}],null],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0b18568ac5b50255.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"/logo.png"}]}],["$","body",null,{"className":"__className_e8ce0c","children":["$","$L7",null,{"children":["$","$L8",null,{"attribute":"class","defaultTheme":"dark","enableSystem":true,"disableTransitionOnChange":false,"children":[["$","$L9",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$La",null,{}],"notFoundStyles":[]}]}],["$","$Lb",null,{}]]}]}]}]]}]],null],null],["$Lc",null]]]]
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"EcoSystem 4.0 - IoT, AI, Blockchain & NFT for Sustainability"}],["$","meta","3",{"name":"description","content":"Exploring IoT sensors, AI monitoring, blockchain verification, and NFT conservation for sustainable ecosystem management and environmental preservation."}],["$","meta","4",{"name":"generator","content":"v0.dev"}],["$","link","5",{"rel":"icon","href":"/logo.png"}],["$","meta","6",{"name":"next-size-adjust"}]]
+1:null
