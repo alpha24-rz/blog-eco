@@ -44,6 +44,7 @@
     "cmdk": "1.0.4",
     "date-fns": "4.1.0",
     "embla-carousel-react": "8.5.1",
+<<<<<<< HEAD
     "framer-motion": "^12.17.0",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
@@ -52,6 +53,12 @@
     "next-auth": "^4.24.11",
     "next-themes": "latest",
     "nodemailer": "^7.0.3",
+=======
+    "input-otp": "1.4.1",
+    "lucide-react": "^0.454.0",
+    "next": "14.2.16",
+    "next-themes": "latest",
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
     "react": "^18",
     "react-day-picker": "8.10.1",
     "react-dom": "^18",

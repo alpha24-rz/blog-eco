@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+<<<<<<< HEAD
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
@@ -14,6 +15,13 @@ interface TopicCardProps {
   count: number;
   slug?: string;  // slug bersifat opsional
 }
+=======
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { BrainCircuit, Cpu, Eye, Github, Linkedin, Mail, Rss, Twitter } from "lucide-react"
+import { useRouter } from "next/navigation"
+import { EcoThemeToggle } from "@/components/eco-theme-toggle"
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
 
 // Static topic data for GitHub Pages
 const topics = [
@@ -22,7 +30,11 @@ const topics = [
     description:
       "Explore how Internet of Things sensors are revolutionizing environmental monitoring and ecosystem management.",
     icon: <BrainCircuit className="h-6 w-6" />,
+<<<<<<< HEAD
     count: 4,
+=======
+    count: 12,
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
     slug: "iot-ecosystem",
   },
   {
@@ -30,7 +42,11 @@ const topics = [
     description:
       "Discover how artificial intelligence is analyzing environmental data to predict and prevent ecological disasters.",
     icon: <Eye className="h-6 w-6" />,
+<<<<<<< HEAD
     count: 2,
+=======
+    count: 8,
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
     slug: "ai-environmental",
   },
   {
@@ -38,7 +54,11 @@ const topics = [
     description:
       "Learn about blockchain applications in carbon credits, supply chain transparency, and environmental verification.",
     icon: <Cpu className="h-6 w-6" />,
+<<<<<<< HEAD
     count: 5,
+=======
+    count: 15,
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
     slug: "blockchain-sustainability",
   },
   {
@@ -46,7 +66,11 @@ const topics = [
     description:
       "Explore how Non-Fungible Tokens are funding conservation projects and creating new models for environmental protection.",
     icon: <BrainCircuit className="h-6 w-6" />,
+<<<<<<< HEAD
     count: 3,
+=======
+    count: 6,
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
     slug: "nft-conservation",
   },
   {
@@ -54,7 +78,11 @@ const topics = [
     description:
       "Discover precision farming techniques using IoT sensors, AI analytics, and sustainable agricultural practices.",
     icon: <BrainCircuit className="h-6 w-6" />,
+<<<<<<< HEAD
     count: 2,
+=======
+    count: 9,
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
     slug: "smart-agriculture",
   },
   {
@@ -62,7 +90,11 @@ const topics = [
     description:
       "Stay updated with the latest technologies in renewable energy, smart grids, and sustainable energy systems.",
     icon: <BrainCircuit className="h-6 w-6" />,
+<<<<<<< HEAD
     count: 3,
+=======
+    count: 11,
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
     slug: "renewable-energy",
   },
 ]
@@ -78,6 +110,7 @@ export default function TopicsPage() {
     <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
       <header className="container mx-auto py-6">
         <div className="flex items-center justify-between">
+<<<<<<< HEAD
           <Link href="/" className="flex items-center gap-2">
       {/* Logo Image */}
       <Image
@@ -93,6 +126,11 @@ export default function TopicsPage() {
         EcoSystem <span className="text-green-600">4.0</span>
       </h1>
     </Link>
+=======
+          <Link href="/" className="text-xl font-bold tracking-tighter">
+            EcoSystem 4.0
+          </Link>
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
           <nav className="hidden md:flex items-center space-x-6 text-sm">
             <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
               Home
@@ -141,8 +179,12 @@ export default function TopicsPage() {
 
       <footer className="border-t border-border py-12">
         <div className="container mx-auto px-4">
+<<<<<<< HEAD
           <div className="grid md:grid-cols-5 gap-8">
             {/* Brand & Social */}
+=======
+          <div className="grid md:grid-cols-4 gap-8">
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
             <div className="space-y-4">
               <Link href="/" className="text-xl font-bold tracking-tighter">
                 EcoSystem 4.0
@@ -151,6 +193,7 @@ export default function TopicsPage() {
                 Pioneering the future of sustainable ecosystems through technology.
               </p>
               <div className="flex space-x-4">
+<<<<<<< HEAD
                 <Link href="https://x.com/ecosystem4_0" className="text-muted-foreground hover:text-foreground">
                   <Twitter className="h-5 w-5" />
                 </Link>
@@ -159,12 +202,23 @@ export default function TopicsPage() {
                 </Link>
                 <Link href="https://www.instagram.com/eco_nft4.0" className="text-muted-foreground hover:text-foreground">
                   <Instagram className="h-5 w-5" />
+=======
+                <Link href="#" className="text-muted-foreground hover:text-foreground">
+                  <Twitter className="h-5 w-5" />
+                </Link>
+                <Link href="#" className="text-muted-foreground hover:text-foreground">
+                  <Github className="h-5 w-5" />
+                </Link>
+                <Link href="#" className="text-muted-foreground hover:text-foreground">
+                  <Linkedin className="h-5 w-5" />
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
                 </Link>
                 <Link href="#" className="text-muted-foreground hover:text-foreground">
                   <Rss className="h-5 w-5" />
                 </Link>
               </div>
             </div>
+<<<<<<< HEAD
 
             {/* Topics */}
             <div>
@@ -179,11 +233,74 @@ export default function TopicsPage() {
             </div>
 
             {/* Contact */}
+=======
+            <div>
+              <h3 className="font-medium mb-4">Topics</h3>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li>
+                  <Link href="#" className="hover:text-foreground">
+                    IoT Ecosystem Monitoring
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-foreground">
+                    AI Environmental Analytics
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-foreground">
+                    Blockchain Sustainability
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-foreground">
+                    NFT Conservation
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-foreground">
+                    Smart Agriculture
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-medium mb-4">Resources</h3>
+              <ul className="space-y-2 text-sm text-muted-foreground">
+                <li>
+                  <Link href="#" className="hover:text-foreground">
+                    Tutorials
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-foreground">
+                    Research Papers
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-foreground">
+                    Code Samples
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-foreground">
+                    Datasets
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#" className="hover:text-foreground">
+                    Tools
+                  </Link>
+                </li>
+              </ul>
+            </div>
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
             <div>
               <h3 className="font-medium mb-4">Contact</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
+<<<<<<< HEAD
                   <span>ecosystem4.0.nft@gmail.com</span>
                 </li>
                 <li className="flex items-center gap-2">
@@ -214,6 +331,13 @@ export default function TopicsPage() {
           </div>
 
           {/* Footer bottom */}
+=======
+                  <span>ameyaudeshmukh@gmail.com</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
           <div className="border-t border-border mt-12 pt-6 text-sm text-muted-foreground">
             <p>© {new Date().getFullYear()} EcoSystem 4.0. All rights reserved.</p>
           </div>
@@ -223,7 +347,11 @@ export default function TopicsPage() {
   )
 }
 
+<<<<<<< HEAD
 function TopicCard({ title, description, icon, count, slug = "" }: TopicCardProps) {
+=======
+function TopicCard({ title, description, icon, count, slug = "" }) {
+>>>>>>> 0e243c4a0f9a523f716cb20e5499216cd3a38604
   return (
     <Link href={`/articles/`} className="group">
       <Card className="bg-card border-border hover:border-green-500/50 transition-colors h-full">
