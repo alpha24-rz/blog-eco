@@ -82,7 +82,7 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="bg-green-600 hover:bg-green-700 rounded-sm">
-                  <Link href="https://eco-4o.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <Link href="https://platform-eco-4-0.vercel.app/" target="_blank" rel="noopener noreferrer">
                     Mvp Platform
                   </Link>
                 </Button>
